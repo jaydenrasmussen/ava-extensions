@@ -1,0 +1,72 @@
+env:
+  es6: true
+  node: true
+extends: 'eslint:recommended'
+parserOptions:
+  sourceType: module
+  ecmaVersion: 8
+rules:
+  indent:
+    - error
+    - 4
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  block-scoped-var:
+    - error
+  class-methods-use-this:
+    - error
+  default-case:
+    - error
+  dot-location:
+    - error
+  dot-notation:
+    - error
+  eqeqeq:
+    - error
+  no-await-in-loop:
+    - error
+  no-catch-shadow:
+    - error
+  no-confusing-arrow:
+    - error
+  no-duplicate-imports:
+    - error
+  no-extra-parens:
+    - error
+  no-implicit-coercion:
+    - error
+  no-loop-func:
+    - error
+  no-magic-numbers:
+    - error
+  no-new:
+    - error
+  no-new-func:
+    - error
+  no-new-wrappers:
+    - error
+  no-shadow:
+    - error
+  no-shadow-restricted-names:
+    - error
+  no-use-before-define:
+    - error
+  no-var:
+    - error
+  require-await:
+    - error
+  sort-imports:
+    - error
+  strict:
+    - error
+  wrap-iife:
+    - error
+  yoda:
+    - error

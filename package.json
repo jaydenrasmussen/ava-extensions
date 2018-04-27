@@ -1,1 +1,16 @@
-{"name":"ava-extensions","author":"","version":"1.0.0","license":"ISC","scripts":{"start":"node app/app","format":"prettier --single-quote --tab-width 4 --print-width 80 --write \"{,!(node_modules)/**/}*.js\""}}
+{
+  "name": "ava-extensions",
+  "author": "",
+  "version": "0.0.1",
+  "license": "ISC",
+  "scripts": {
+    "precommit": "npm run fmt && npm run lint",
+    "prepush": "npm test",
+    "fmt": "prettier --arrow-parens avoid --single-quote --tab-width 4 --print-width 80 --write \"{,!(node_modules)/**/}*.js\"",
+    "lint": "eslint . --fix",
+    "test": "ava"
+  },
+  "dependencies": {
+    "husky": "^0.14.3"
+  }
+}
