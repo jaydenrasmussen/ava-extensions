@@ -1,4 +1,3 @@
-
 const test = require('ava');
 const mod = require('../');
 
