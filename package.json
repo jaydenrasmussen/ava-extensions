@@ -12,5 +12,8 @@
   },
   "dependencies": {
     "husky": "^0.14.3"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
   }
 }
